@@ -159,6 +159,9 @@ public class GameModeSystemServer : ComponentSystem
                 case "assault":
                     m_GameMode = new GameModeAssault();
                     break;
+                case "rugby":
+                    m_GameMode = new GameModeRugby();
+                    break;
                 default:
                     m_GameMode = new NullGameMode();
                     break;

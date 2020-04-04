@@ -58,10 +58,11 @@ public class MainMenu : MonoBehaviour
         uiBinding.gamemode.options.Clear();
         uiBinding.gamemode.options.Add(new TMPro.TMP_Dropdown.OptionData("Assault"));
         uiBinding.gamemode.options.Add(new TMPro.TMP_Dropdown.OptionData("Deathmatch"));
+        uiBinding.gamemode.options.Add(new TMPro.TMP_Dropdown.OptionData("Rugby"));
         uiBinding.gamemode.RefreshShownValue();
 
         uiBinding.levelname.options.Clear();
-        uiBinding.levelname.options.Add(new TMPro.TMP_Dropdown.OptionData("Level_01"));
+        uiBinding.levelname.options.Add(new TMPro.TMP_Dropdown.OptionData("Level_Rugby"));
         uiBinding.levelname.options.Add(new TMPro.TMP_Dropdown.OptionData("Level_00"));
         uiBinding.levelname.RefreshShownValue();
 
