@@ -13,4 +13,14 @@ public class SpawnPoint : MonoBehaviour
     }
 #endif
 
+#if UNITY_EDITOR
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            UnityEditor.EditorApplication.isPaused = true;
+        }
+    }
+#endif
+
 }

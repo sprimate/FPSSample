@@ -3,4 +3,5 @@
 [EditorOnlyGameObject]
 public class StripGameObjectFromBuild : MonoBehaviour
 {
+
 }

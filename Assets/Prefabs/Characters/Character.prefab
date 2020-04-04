@@ -119,7 +119,7 @@ MonoBehaviour:
     actionStartTick: 0
     jumpCount: 0
     sprinting: 0
-    cameraProfile: 0
+    cameraProfile: 2
     damageTick: 0
     damageDirection: {x: 0, y: 0, z: 0}
     damageImpulse: 0
